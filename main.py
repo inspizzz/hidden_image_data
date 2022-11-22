@@ -73,7 +73,7 @@ class Decode():
                 b = bin(self.img[row][element][2])
 
                 decoded += r[-2:] + g[-2:] + b[-2:]
-        print(decoded[0:20])
+        print(decoded[0:20]) 
 
 
 
